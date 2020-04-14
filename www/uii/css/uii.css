@@ -1,0 +1,71 @@
+body {
+ font: 0.7em verdana;
+}
+table .head td {
+ color: red;
+ background: #DFDFDF;
+ font-size: 75%;
+}
+table .head #cell_download {
+ background: white;
+ font-size: 75%;
+ border-right: none;
+ border-top: none;
+ border-bottom: none;
+}
+table {
+ background: #F0FFB9;
+ text-align: center;
+ width: 100%;
+}
+table td {
+  vertical-align: middle;
+  border: solid 1px #848284;
+}
+table tr:hover {
+ background: #F2F0D2;
+}
+.cell_download {
+  border: none;
+  background: white;
+  padding: 0 5px;
+}
+.men_fio  {
+ border: none;
+ text-align: left;
+}
+.men_fio tr:first-child  {
+ background: transparent;
+ border: none;
+ text-align: center;
+}
+.men_txt tr:first-child {
+ color: black;
+}
+input[type="submit"] {
+ border: solid 1px rgb(132, 130, 132);
+ border-radius: 3px;
+ border-radius: 3px;
+ -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -o-border-radius: 3px;
+}
+input[type="submit"]:hover {
+ box-shadow: 0 0 2px 0;
+ -moz-box-shadow: 0 0 2px 0;
+ -webkit-box-shadow: 0 0 2px 0;
+ -moz-box-shadow: 0 0 2px 0;
+ -o-box-shadow: 0 0 2px 0;
+}
+input[type="submit"]:active {
+ border-radius: 3px;
+ box-shadow: inset 0 0 2px 0;
+ -moz-box-shadow: inset 0 0 2px 0;
+ -webkit-box-shadow: inset 0 0 2px 0;
+ -moz-box-shadow: inset 0 0 2px 0;
+ -o-box-shadow: inset 0 0 2px 0;
+}
+#uii {
+  display: block;
+  padding: 10px 40px;
+}

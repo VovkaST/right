@@ -1,0 +1,15 @@
+table {
+ background: #F0FFB9;
+ text-align: center;
+ width: 100%;
+ border: solid 1px #848284;
+}
+table .head td {
+ color: red;
+ background: #DFDFDF;
+ font-size: 75%;
+}
+table td {
+  vertical-align: middle;
+  border: solid 1px #848284;
+}

@@ -1,0 +1,1 @@
+php.exe d:\www.sites\cronosSwap.php
