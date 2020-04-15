@@ -1,0 +1,38 @@
+.user_message {
+  position: relative;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  behavior: url('/css/PIE.htc');
+}
+.user_message.attention {
+  border: 1px solid #F7BF5B;
+  background: #FFEAD6;
+  color: #A85555;
+}
+.user_message.info {
+  border: 1px solid #8FD7A8;
+  background: #D5F2BF;
+  color: #1AA52C;
+}
+.user_message h3 {
+  margin: 0 0 5px 0px;
+}
+.close_message {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0px 4px;
+}
+.user_message.attention .close_message{
+  color: #BB821D;
+}
+.user_message.info .close_message{
+  color: #1C7928;
+}

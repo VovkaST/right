@@ -1,16 +1,15 @@
 <?php
+date_default_timezone_set('Europe/Minsk');
 $kol = 15; // количество записей на страницу просмотра выборки
 define('REC_ON_PAGE', 15);
 $addr = "http://.../";
-define("ADDR", "http://test.ru/");
+define("ADDR", "http://.../");
 $kernel = "d:/www.sites/";
-//define("KERNEL", "d:/www.sites/");
-define("KERNEL", "C:/apache/test.ru/");
-//$dir_files = "d:/www.sites/files";
-//define('DIR_FILES', KERNEL.'files');
-define('DIR_FILES', KERNEL.'files');
+define("KERNEL", "d:/www.sites/");
+$dir_files = "d:/www.sites/files";
+define('DIR_FILES', 'd:/www.sites/files');
 $dir_refuse = DIR_FILES."/Отказные/";
-
+define('DIR_REFUSE', DIR_FILES.'/Отказные/');
 $dir_uii = DIR_FILES."/УИИ/";
 $dir_migration = DIR_FILES."/Миграция/";
 $dir_ukraine = DIR_FILES."/Украинцы/";
@@ -22,23 +21,23 @@ $doc_type_array = array("doc", "docx", "rtf", "DOC", "DOCX", "RTF", "pdf", "PDF"
 $dir_docs = "d:/www.sites/documents";
 define('DIR_DOCS', 'd:/www.sites/documents/');
 $dir_session = "d:/www.sites/sessions/";
-define('DIR_SESSION', 'C:/apache/test.ru/sessions/');
+define('DIR_SESSION', 'd:/www.sites/sessions/');
 $img = ADDR."images/";
-define('IMG', ADDR.'images/');
+define('IMG', '/images/');
 $js = ADDR."js/";
-define('JS', ADDR.'js/');
+define('JS', '/js/');
 $css = ADDR."css/";
-define('CSS', ADDR.'css/');
+define('CSS', '/css/');
 $location = "location: http://.../refusal/upload.php?tempID=";
 $loc_acc_ind = "location: http://.../accounting/index.php";
 $index = ADDR."index.php";
-define('INDEX', ADDR.'index.php');
+define('INDEX', '/index.php');
 $enter = "http://...:.../";
 define('IBD', 'http://...:.../');//ИБД-Р
 $exit = ADDR."exit.php";//завершение сессии доступа
-define('EXIT_SCRIPT', ADDR.'exit.php');
+define('EXIT_SCRIPT', '/exit.php');
 $accounting = ADDR."accounting.php";//формирование учетов
-define('ACCOUNTING', ADDR.'accounting.php');
+define('ACCOUNTING', '/accounting.php');
 $refusal_view_upload = ADDR."refusal/refusal_view_upload.php"; //просмотр/ввод нового отказного
 define('REFUSAL_VIEW_UPLOAD', ADDR.'refusal/refusal_view_upload.php');
 $search = ADDR."refusal/search.php?";//поиск
@@ -53,9 +52,9 @@ $refusal = ADDR."refusal/index.php";//отказные
 $indictment = ADDR."indictment/index.php";//обвинительные
 $debt = ADDR."debt/obv.php";//долги
 define('DEBT', ADDR.'debt/obv.php'); //документы
-define('DOCUMENTS', ADDR.'documents/index.php'); //документы
-define('CONTACTS', ADDR.'contacts.php'); //контакты
-define('ADM_UTIL', ADDR.'admin/index.php'); //админка
-define('CRIMES', ADDR.'crimes/'); //преступления
+define('DOCUMENTS', '/documents/index.php'); //документы
+define('CONTACTS', '/contacts.php'); //контакты
+define('ADM_UTIL', '/admin/index.php'); //админка
+define('CRIMES', '/crimes/'); //преступления
 $cpe_mail = "cextr@kir.mvd.ru";//почтовый ящик ЦПЭ
 ?>
